@@ -5,7 +5,7 @@
 
 This AI-powered module, developed by [SOCIB](https://www.socib.es/), is dedicated to the automatic detection of rip currents in beach imagery. It utilizes oriented bounding boxes to identify rip currents in both oblique and aerial RGB images. The module integrates with the[DEEPaaS API](https://github.com/ai4os/DEEPaaS), which provides platform support and enhances the functionality and accessibility of the code, allowing users to interact with the detection pipeline efficiently.
 
-The underlying model (yolo11n-obb) was trained on the [RipAID dataset](https://doi.org/10.5281/zenodo.15082426)), with its performance enhanced through data augmentation and hyperparameter optimization. 
+The underlying model (yolo11n-obb) was trained on the [RipAID dataset](https://doi.org/10.5281/zenodo.15082426), with its performance enhanced through data augmentation and hyperparameter optimization. 
 
 ## Running the container
 

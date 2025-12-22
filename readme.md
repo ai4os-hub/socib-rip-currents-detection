@@ -2,14 +2,15 @@
 
 [![Build Status](https://jenkins.cloud.ai4eosc.eu/buildStatus/icon?job=AI4OS-hub/socib-rip-currents-detection/main)](https://jenkins.cloud.ai4eosc.eu/job/AI4OS-hub/job/socib-rip-currents-detection/job/main/)
 
-
 This AI-powered module, developed by [SOCIB](https://www.socib.es/), is dedicated to the automatic detection of rip currents in beach imagery. It utilizes oriented bounding boxes to identify rip currents in both oblique and aerial RGB images. The module integrates with the[DEEPaaS API](https://github.com/ai4os/DEEPaaS), which provides platform support and enhances the functionality and accessibility of the code, allowing users to interact with the detection pipeline efficiently.
+
+![rip_currents_output_example](https://raw.githubusercontent.com/ai4os-hub/socib-rip-currents-detection/main/figures/ripdet_output_example.png)
 
 The underlying model (yolo11n-obb) was trained on the [RipAID dataset](https://doi.org/10.5281/zenodo.15082426), with its performance enhanced through data augmentation and hyperparameter optimization. 
 
-## Running the container
+## 🚀 Running the container
 
-### Directly from Docker Hub
+### ☁️ Directly from Docker Hub
 
 To run the Docker container directly from Docker Hub and start using the API, simply run the following command:
 
@@ -20,7 +21,7 @@ $ docker run -ti -p 5000:5000 ai4oshub/socib-rip-currents-detection
 
 This command will pull the Docker container from the Docker Hub [ai4oshub](https://hub.docker.com/u/ai4oshub/) repository and start the default command (`deepaas-run --listen-ip=0.0.0.0`).
 
-### Building the container
+### 🛠️ Building the container
 
 To build the container directly on your machine (for example, if you need to modify the `Dockerfile`), use the instructions below:
 ```bash
@@ -32,11 +33,11 @@ docker run -ti -p 5000:5000 ai4oshub/socib-rip-currents-detection
 
 These three steps will download the repository from GitHub and will build the Docker container locally on your machine. You can inspect and modify the `Dockerfile` in order to check what is going on. For instance, you can pass the `--debug=True` flag to the `deepaas-run` command, in order to enable the debug mode.
 
-## Connect to the API
+## 🔌 Connect to the API
 
 Once the container is up and running, browse to http://0.0.0.0:5000/ui to get the [OpenAPI (Swagger)](https://www.openapis.org/) documentation page.
 
-## Project structure
+## 📂 Project structure
 ```
 ├── .gitignore                     <- List of files ignored by git
 ├── .sqa/                          <- CI/CD configuration files
@@ -55,6 +56,9 @@ Once the container is up and running, browse to http://0.0.0.0:5000/ui to get th
 ├── readme.md                      <- README for developers and users
 └── VERSION                        <- Current version of the application
 ```
+## 🇪🇺 Acknowledgements
+
+This work was supported by ‘iMagine’ (Grant Agreement No.101058625) European Union funded project. Views and opinions expressed are however those of the authors only and do not necessarily reflect those of the European Union or the European Health and Digital Executive Agency (HaDEA).
 
 ## 📚 References
 - [RipAID – Rip current Annotated Image Dataset](https://doi.org/10.5281/zenodo.15082426)

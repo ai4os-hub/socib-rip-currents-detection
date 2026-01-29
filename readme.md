@@ -2,7 +2,7 @@
 
 [![Build Status](https://jenkins.cloud.ai4eosc.eu/buildStatus/icon?job=AI4OS-hub/socib-rip-currents-detection/main)](https://jenkins.cloud.ai4eosc.eu/job/AI4OS-hub/job/socib-rip-currents-detection/job/main/)
 
-This AI-powered module, developed by [SOCIB](https://www.socib.es/), is dedicated to the automatic detection of rip currents in beach imagery. It utilizes oriented bounding boxes to identify rip currents in both oblique and aerial RGB images. The module integrates with the[DEEPaaS API](https://github.com/ai4os/DEEPaaS), which provides platform support and enhances the functionality and accessibility of the code, allowing users to interact with the detection pipeline efficiently.
+This AI-powered module, developed by [SOCIB](https://www.socib.es/), is dedicated to the automatic detection of rip currents in beach imagery. It utilizes oriented bounding boxes to identify rip currents in both oblique and aerial RGB images. The module integrates with the [DEEPaaS API](https://github.com/ai4os/DEEPaaS), which provides platform support and enhances the functionality and accessibility of the code, allowing users to interact with the detection pipeline efficiently.
 
 ![rip_currents_output_example](https://raw.githubusercontent.com/ai4os-hub/socib-rip-currents-detection/main/figures/ripdet_output_example.png)
 

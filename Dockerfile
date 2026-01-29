@@ -13,7 +13,7 @@ ARG tag=latest
 FROM ai4oshub/ai4os-yolo-torch:${tag}
 
 LABEL maintainer='Josep Oliver-Sanso, Jesus Soriano-Gonzalez'
-LABEL version='0.0.1'
+LABEL version='1.0.1'
 
 ENV YOLO_DEFAULT_WEIGHTS="socib-rip-currents-detection"
 ENV YOLO_DEFAULT_TASK_TYPE="obb,seg"
@@ -27,7 +27,7 @@ COPY ./pyproject-child.toml /srv/ai4os-yolo-torch/pyproject.toml
 RUN cd /srv/ai4os-yolo-torch && pip install --no-cache -e .
 
 RUN mkdir -p /srv/ai4os-yolo-torch/models/${YOLO_DEFAULT_WEIGHTS}/weights && \
-    curl -L https://github.com/ai4os-hub/socib-rip-currents-detection/releases/download/v1.0.0/best.pt \
+    curl -L https://github.com/ai4os-hub/socib-rip-currents-detection/releases/download/v1.0.1/best.pt \
     --output /srv/ai4os-yolo-torch/models/${YOLO_DEFAULT_WEIGHTS}/weights/best.pt
 
 COPY ./deepaas.conf /srv/ai4os-yolo-torch/deepaas.conf

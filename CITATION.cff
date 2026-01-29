@@ -42,9 +42,6 @@ authors:
     region: Balearic Islands
     alias: SOCIB
     website: 'https://www.socib.es'
-identifiers:
-  - type: doi
-    value: 10.5281/zenodo.18254941
 repository-code: 'https://github.com/ai4os-hub/socib-rip-currents-detection/'
 abstract: >-
   The Balearic Islands Coastal Observing and Forecasting

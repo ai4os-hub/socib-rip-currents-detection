@@ -1,43 +1,31 @@
 metadata_version: 1.0.0
 title: SOCIB Rip Currents Detection
 summary: A deployable AI module for rip currents detection based on YOLO
-description: |-
- **The Balearic Islands Coastal Observing and Forecasting System** ([SOCIB](https://www.socib.es/)) operates a multi-platform system in the western Mediterranean to provide reliable data and expert advice.
-
- **Rip currents** are concentrated seawards flows of water that extend from close to the shoreline through the surf zone, reaching high velocities (0.5-3 m·s-1). They are considered the principal physical hazard to recreational bathers on surf beaches, constituting the primary focus of beach lifeguard efforts and remaining a leading cause of rescues and drownings globally. Accurate detection and warning systems are crucial to mitigate these risks and improve beach safety.
- 
- The **SOCIB Rip Currents Detection** module is an AI-based application that automates the detection of rip currents from RGB images including oblique pictures (e.g., fixed beach imaging systems, smartphones) and orthoimagery (e.g., UAV). See examples of input(top) and output(bottom) images below:
-
- <img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/socib-rip-currents-detection/main/figures/ripdet_output_example.png'/>
-
- This application was trained using the Rip Current Annotated Image Dataset ([RipAID](https://doi.org/10.5281/zenodo.15082426)), and is suitable for both static images and near-real-time video streams. 
-
- **References**
- - Jocher, G., Chaurasia, A., & Qiu, J. (2023). YOLO by Ultralytics [Computer software]. https://github.com/ultralytics/ultralytics
- - Soriano-González, J., et al. (2025). RipAID: Rip current Annotated Image Dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15082426
+description: "**The Balearic Islands Coastal Observing and Forecasting System** ([SOCIB](https://www.socib.es/)) operates a multi-platform system in the western Mediterranean to provide reliable data and expert advice.\n\n**Rip currents** are concentrated seawards flows of water that extend from close to the shoreline through the surf zone, reaching high velocities (0.5-3 m·s-1). They are considered the principal physical hazard to recreational bathers on surf beaches, constituting the primary focus of beach lifeguard efforts and remaining a leading cause of rescues and drownings globally. Accurate detection and warning systems are crucial to mitigate these risks and improve beach safety.\n\nThe **SOCIB Rip Currents Detection** module is an AI-based application that automates the detection of rip currents from RGB images including oblique pictures (e.g., fixed beach imaging systems, smartphones) and orthoimagery (e.g., UAV). See examples of input(top) and output(bottom) images below:\n\n<img class='fit', src='https://raw.githubusercontent.com/ai4os-hub/socib-rip-currents-detection/main/figures/ripdet_output_example.png'/>\n\nThis application was trained using the Rip Current Annotated Image Dataset ([RipAID](https://doi.org/10.5281/zenodo.15082426)), and is suitable for both static images and near-real-time video streams. \n\n**References**\n- Jocher, G., Chaurasia, A., & Qiu, J. (2023). YOLO by Ultralytics [Computer software]. https://github.com/ultralytics/ultralytics\n- Soriano-González, J., et al. (2025). RipAID: Rip current Annotated Image Dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15082426"
 dates:
- created: '2025-12-10'
- updated: '2025-12-10'
+  created: '2025-12-10'
+  updated: '2025-12-10'
 links:
- source_code: https://github.com/ai4os-hub/socib-rip-currents-detection
- docker_image: ai4oshub/socib-rip-currents-detection
- ai4_template: ai4-template/1.9.9
- dataset: https://doi.org/10.5281/zenodo.15082426
-
+  source_code: https://github.com/ai4os-hub/socib-rip-currents-detection
+  docker_image: ai4oshub/socib-rip-currents-detection
+  ai4_template: ai4-template/1.9.9
+  dataset: https://doi.org/10.5281/zenodo.15082426
+  zenodo_doi: https://doi.org/10.5281/zenodo.18254941
 tags:
- - deep learning
- - beach monitoring
- - yolo
- - vo.imagine-ai.eu
+- deep learning
+- beach monitoring
+- yolo
+- vo.imagine-ai.eu
 tasks:
- - Computer Vision
- - Transfer Learning
- - Other
+- Computer Vision
+- Transfer Learning
+- Other
 categories:
- - AI4 pre trained
- - AI4 inference
+- AI4 pre trained
+- AI4 inference
 libraries:
- - PyTorch
+- PyTorch
 data-type:
- - Image
- - Video
+- Image
+- Video
+doi: 10.5281/zenodo.18254941

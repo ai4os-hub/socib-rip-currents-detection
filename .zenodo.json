@@ -1,0 +1,35 @@
+{
+    "title": "SOCIB Rip currents detection",
+    "description": "<p>The Balearic Islands Coastal Observing and Forecasting System (SOCIB) operates a multi-platform system in the western Mediterranean to provide reliable data and expert advice.</p><p>Rip currents are concentrated seawards flows of water that extend from close to the shoreline through the surf zone, reaching high velocities (0.5-3 m/s). They are considered the principal physical hazard to recreational bathers on surf beaches, constituting the primary focus of beach lifeguard efforts and remaining a leading cause of rescues and drownings globally. Accurate detection and warning systems are crucial to mitigate these risks and improve beach safety.</p><p>The SOCIB Rip Currents Detection module is an AI-based application that automates the detection of rip currents from RGB images including oblique pictures (e.g., fixed beach imaging systems, smartphones) and orthoimagery (e.g., UAV).</p><p>This application was trained using the Rip Current Annotated Image Dataset (RipAID), and is suitable for both static images and near-real-time video streams.</p>",
+    "upload_type": "software",
+    "access_right": "open",
+    "license": "agpl-3.0",
+    "version": "v1.0.1",
+    "publication_date": "2026-01-30",
+    "creators": [
+        {
+            "name": "Oliver-Sansó, Josep",
+            "affiliation": "Balearic Islands Coastal Observing and Forecasting System",
+            "orcid": "0009-0006-9040-9118"
+        },
+        {
+            "name": "Soriano-González, Jesús",
+            "affiliation": "Balearic Islands Coastal Observing and Forecasting System",
+            "orcid": "0000-0001-6573-3924"
+        },
+        {
+            "name": "Català-Gonell, Albert",
+            "affiliation": "Balearic Islands Coastal Observing and Forecasting System",
+            "orcid": "0009-0000-1203-8709"
+        },
+        {
+            "name": "Balearic Islands Coastal Observing and Forecasting System"
+        }
+    ],
+    "keywords": [
+        "Deep Learning",
+        "Computer Vision",
+        "Beach Monitoring",
+        "Rip Currents Detection"
+    ]
+}

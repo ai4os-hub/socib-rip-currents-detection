@@ -9,38 +9,21 @@ message: >-
 type: software
 authors:
   - given-names: Josep
-    family-names: Oliver-Sansó
+    family-names: "Oliver-Sansó"
     email: joliver@socib.es
-    affiliation: >-
-      Balearic Islands Coastal Observing and Forecasting
-      System (SOCIB)
+    affiliation: "Balearic Islands Coastal Observing and Forecasting System"
     orcid: 'https://orcid.org/0009-0006-9040-9118'
-  - given-names: Jesús
-    family-names: Soriano-González
+  - given-names: "Jesús"
+    family-names: "Soriano-González"
     email: jsoriano@socib.es
-    affiliation: >-
-      Balearic Islands Coastal Observing and Forecasting
-      System (SOCIB)
+    affiliation: "Balearic Islands Coastal Observing and Forecasting System"
     orcid: 'https://orcid.org/0000-0001-6573-3924'
   - given-names: Albert
-    family-names: Català-Gonell
+    family-names: "Català-Gonell"
     email: albert.catala1@estudiant.uib.cat
-    affiliation: >-
-      Balearic Islands Coastal Observing and Forecasting
-      System
+    affiliation: "Balearic Islands Coastal Observing and Forecasting System"
     orcid: 'https://orcid.org/0009-0000-1203-8709'
-  - name: >-
-      Balearic Islands Coastal Observing and Forecasting
-      System
-    address: >-
-      Isaac Newton St., Naorte Building, Block A, Floor 2,
-      Door 3
-    city: Palma
-    country: ES
-    post-code: '07121'
-    location: Parc Bit
-    region: Balearic Islands
-    alias: SOCIB
+  - name: "Balearic Islands Coastal Observing and Forecasting System"
     website: 'https://www.socib.es'
 repository-code: 'https://github.com/ai4os-hub/socib-rip-currents-detection/'
 abstract: >-

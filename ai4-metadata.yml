@@ -1,4 +1,4 @@
-metadata_version: 1.0.0
+metadata_version: 1.0.1
 title: SOCIB Rip Currents Detection
 summary: A deployable AI module for rip currents detection based on YOLO
 description: |-
@@ -17,7 +17,7 @@ description: |-
  - Soriano-González, J., et al. (2025). RipAID: Rip current Annotated Image Dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.15082426
 dates:
  created: '2025-12-10'
- updated: '2025-12-10'
+ updated: '2025-03-03'
 links:
  source_code: https://github.com/ai4os-hub/socib-rip-currents-detection
  docker_image: ai4oshub/socib-rip-currents-detection

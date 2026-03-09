@@ -16,7 +16,7 @@ To run the Docker container directly from Docker Hub and start using the API, si
 
 
 ```bash
-$ docker run -ti -p 5000:5000 ai4oshub/socib-rip-currents-detection
+docker run -ti -p 5000:5000 ai4oshub/socib-rip-currents-detection
 ```
 
 This command will pull the Docker container from the Docker Hub [ai4oshub](https://hub.docker.com/u/ai4oshub/) repository and start the default command (`deepaas-run --listen-ip=0.0.0.0`).
@@ -36,6 +36,12 @@ These three steps will download the repository from GitHub and will build the Do
 ## 🔌 Connect to the API
 
 Once the container is up and running, browse to http://0.0.0.0:5000/ui to get the [OpenAPI (Swagger)](https://www.openapis.org/) documentation page.
+
+### Making Predictions with the API
+
+If you want a detailed, step-by-step example of how to send requests to the prediction endpoint, configure inference parameters, and process the results in memory, check out our interactive guide:
+
+**[API Prediction Tutorial: Python & Requests](notebooks/01_api_tutorial.ipynb)**
 
 ## 📂 Project structure
 ```
